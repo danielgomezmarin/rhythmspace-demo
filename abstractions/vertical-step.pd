@@ -1,0 +1,57 @@
+#N canvas 248 360 547 310 10;
+#X obj 100 235 tgl 15 0 nos \$0-1 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 220 tgl 15 0 nos \$0-2 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 205 tgl 15 0 nos \$0-3 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 190 tgl 15 0 nos \$0-4 empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 100 175 tgl 15 0 nos nor empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 100 160 tgl 15 0 nos \$0-5 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 145 tgl 15 0 nos \$0-6 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 130 tgl 15 0 nos \$0-7 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 100 115 tgl 15 0 nos \$0-8 empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 222 121 list split 1;
+#X obj 258 140 list;
+#X obj 222 140 t b f;
+#X obj 249 183 f;
+#X obj 276 185 + 1;
+#X msg 361 154 0;
+#X obj 250 163 t b f;
+#X obj 222 94 t a b;
+#X obj 326 211 pack;
+#X obj 358 176 loadbang;
+#X msg 403 208 bang;
+#X obj 326 235 list prepend;
+#X msg 337 260 \; \$1-\$2 \$3;
+#X obj 100 250 tgl 15 0 nos \$0-0 empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 358 208 \$0;
+#X obj 222 17 r draw-step;
+#X obj 229 65 route \$1;
+#X connect 9 0 11 0;
+#X connect 9 1 10 1;
+#X connect 10 0 9 0;
+#X connect 11 0 10 0;
+#X connect 11 1 15 0;
+#X connect 12 0 13 0;
+#X connect 12 0 17 0;
+#X connect 13 0 12 1;
+#X connect 14 0 12 1;
+#X connect 15 0 12 0;
+#X connect 15 1 17 1;
+#X connect 16 0 9 0;
+#X connect 16 1 14 0;
+#X connect 17 0 20 0;
+#X connect 18 0 23 0;
+#X connect 19 0 23 0;
+#X connect 20 0 21 0;
+#X connect 23 0 20 1;
+#X connect 24 0 25 0;
+#X connect 25 0 16 0;
+#X coords 0 -1 1 1 15 150 2 100 115;

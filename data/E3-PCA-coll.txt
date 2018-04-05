@@ -1,0 +1,9 @@
+0, technogrindinganalogue_AM red 1.10774849 0.006282868439;
+1, technoindustrial_AM red 0.907121922 -0.2092341548;
+2, technohardcore_CCM red 0.2965562693 -0.9686336165;
+3, deephouse_CCM blue 0.1473067858 0.4693178016;
+4, dirtyhouse_SA blue 0.251940417 0.1166775845;
+5, deeptechhouse_AM blue -0.7388302986 -0.5778917328;
+6, breaksyntheticsubs_EH green -0.06927070805 1.152677599;
+7, breakfunkbreak_SA green -0.8068307215 0.1255983993;
+8, breakfunkydrummer_EH green -1.095742156 -0.1147947483;
