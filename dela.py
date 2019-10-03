@@ -1,6 +1,6 @@
 #to clear some doubts check the example called simple.py
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import math
 from scipy.spatial import Delaunay
 try:
